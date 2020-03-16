@@ -7,11 +7,17 @@ namespace PointerChasingTest.CacheFriendlyRealization {
         
         public UpdateComponentsSystem() {
             _moveComponents = new List<MoveComponent>();
-            _moveComponents.Add(new MoveComponent(100));
             _healthComponents = new List<HealthComponent>();
+        }
+
+        public void AddMoveComponent() {
+            _moveComponents.Add(new MoveComponent(100));
+        }
+
+        public void AddHealthComponent() {
             _healthComponents.Add(new HealthComponent(100));
         }
-        
+
         public void Update() {
             foreach (var moveComponent in _moveComponents) {
                 moveComponent.Update();
