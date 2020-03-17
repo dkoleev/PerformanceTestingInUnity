@@ -1,15 +1,10 @@
 ﻿namespace PointerChasingTest.CacheFriendlyRealization {
-    public class EnemyCacheFriendly {
-        private UpdateComponentsSystem _system;
-        
-        public EnemyCacheFriendly()
-        {
-            _system = new UpdateComponentsSystem();
-        }
+    public class EnemyCacheFriendly : IEntity {
+        public int Id { get; }
 
-        public void Update()
+        public EnemyCacheFriendly(int id)
         {
-            _system.Update();
+            Id = id;
         }
     }
 }

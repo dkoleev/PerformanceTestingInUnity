@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\Learning\PerformanceTesting\PerformanceTestingInUnity\PerformanceTesting" t="IncludeRecursive">
+    <e p="C:\Users\Dimko\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dimko\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_PerformanceTesting.669562184.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\PerformanceTestingInUnity\PerformanceTesting" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="PointerChasingTest" t="Include">
             <e p="CacheFriendlyRealization" t="Include">
               <e p="EnemyCacheFriendly.cs" t="Include" />
+              <e p="Entity.cs" t="Include" />
               <e p="HealthComponent.cs" t="Include" />
               <e p="MoveComponent.cs" t="Include" />
               <e p="UpdateComponentsSystem.cs" t="Include" />
@@ -22,12 +25,13 @@
           </e>
         </e>
       </e>
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="PerformanceTesting.sln" t="IncludeFlat" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
-    <e p="C:\Users\user.DESKTOP-Q74G26V\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\user.DESKTOP-Q74G26V\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PerformanceTesting.-1533589623.00" t="ExcludeRecursive" />
   </component>
 </project>
