@@ -14,8 +14,9 @@ namespace PointerChasingTest {
         private void Start() {
             for (int i = 0; i < EnemyAmount; i++) {
                 _classicEnemies.Add(new EnemyClassic());
-                  _system.AddHealthComponent();
-                  _system.AddMoveComponent();
+                
+                 _system.AddHealthComponent();
+                 _system.AddMoveComponent();
             }
         }
 
